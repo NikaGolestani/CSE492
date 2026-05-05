@@ -14,7 +14,7 @@ The model was trained on the AVIMOS dataset (1000 videos). To reduce redundancy,
 
 ## Training Strategy
 
-Because the full dataset exceeds RAM limits, videos were loaded in buffers of 10 at a time, with an 8:2 train-validation split per buffer. Each buffer was trained for 3 epochs to avoid overfitting and prevent the model from producing overly confident, binary-like outputs. We used a hybrid BCE + Dice loss, combining stable gradient descent with better shape refinement of saliency regions.
+Because the full dataset exceeds RAM limits, videos were loaded in buffers of 10 at a time, with an 8:2 train-validation split per buffer. Each buffer was trained for 3 epochs to avoid overfitting and prevent the model from producing overly confident, binary-like outputs. We used BCE for stable gradient of saliency regions.
 
 ---
 

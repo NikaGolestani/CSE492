@@ -174,4 +174,3 @@ Frame → Preprocess (resize/normalize) → Model → Raw saliency map
 Built with academic supervision, and with generous input from special
 education specialists consulted during development on sensory heterogeneity,
 caregiver access design, and per-feature sensory reporting.
-```

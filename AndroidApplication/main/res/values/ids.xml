@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radio_mist"     type="id"/>
+    <item name="radio_blackout" type="id"/>
+    <item name="radio_vignette" type="id"/>
+    <item name="radio_notebook" type="id"/>
+</resources>

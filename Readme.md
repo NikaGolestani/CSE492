@@ -22,7 +22,7 @@ Sensory-Aware ASD Support* (Yeditepe University, 2026) — not a published or
 peer-reviewed paper. It's included in this repo (`/report`) for reference,
 and the project itself also grew out of conversations with a
 special education specialist during development. **Before contributing,
-please read [`problemmDefinition.md`](problemmDefinition.md)** — it
+please read [`ProblemDefinition.md`](ProblemDefinition.md)** — it
 explains *why* the system is built the way it is, including some tradeoffs
 that aren't obvious from the code alone (e.g. why more visual detail is
 usually worse for ASD, but why ADHD requires the opposite).
